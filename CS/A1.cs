@@ -1,6 +1,7 @@
 ﻿using System;
 using CS18_2;
 
+// CS18_2と参照関係
 namespace CS18
 {
     public class A1

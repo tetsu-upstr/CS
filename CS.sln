@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS18", "CS\CS18.csproj", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS18_2", "CS18_2\CS18_2.csproj", "{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS20", "CS20\CS20.csproj", "{D72E564B-E45D-423B-B31E-6990C995E8F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72E564B-E45D-423B-B31E-6990C995E8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72E564B-E45D-423B-B31E-6990C995E8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72E564B-E45D-423B-B31E-6990C995E8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72E564B-E45D-423B-B31E-6990C995E8F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
