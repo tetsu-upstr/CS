@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS18", "CS\CS18.csproj", "{4A8C68CD-1B44-4782-B5BA-905919051D9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS18_2", "CS18_2\CS18_2.csproj", "{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A8C68CD-1B44-4782-B5BA-905919051D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8C68CD-1B44-4782-B5BA-905919051D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8C68CD-1B44-4782-B5BA-905919051D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8C68CD-1B44-4782-B5BA-905919051D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7918DF-9DE3-46E3-BE61-B2EC3846406C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
