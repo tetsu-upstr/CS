@@ -10,7 +10,7 @@ namespace CS20
         // public 外部からも参照可能
         public void Call()
         {
-            int count = 0;
+            int _count = 0;
 
             _count++; // _をつけて、関数内部で宣言したものか、privateで宣言したものかを判別するのもあり
         }
