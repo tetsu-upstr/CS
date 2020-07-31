@@ -1,18 +1,57 @@
 ﻿using System;
 
-namespace CS20
+namespace CS23
 {
-    public class Class1
+    public class Counter
     {
-        // フィールドの書き方 アクセス修飾子 型 変数名（小文字）
+        // フィールド　（書き方）アクセス修飾子 型 変数名（小文字）
         private int _count = 0;
 
-        // public 外部からも参照可能
+        // コンストラクタ
+        public Counter(int count)
+        {
+            _count = count;
+        }
+
+        // プロパティ　フィールドとコンストラクの下に書くのが慣習
+        public int Count
+        {
+            get
+            {
+                return _count;
+            }
+            
+            set
+            {
+                if (value > 100)
+                {
+                    _count = 0;
+                    return;
+                }
+
+                _count = value;
+            }
+        }
+
         public void Call()
         {
-            int _count = 0;
-
-            _count++; // _をつけて、関数内部で宣言したものか、privateで宣言したものかを判別するのもあり
+            _count++;
         }
+
+        // public void SetCount(int value)
+        // {
+        //     if (value > 100)
+        //     {
+        //         _count = 0;
+        //         return;
+        //     }
+
+        //     _count = value;
+        // }
+
+        // public int GetCount()
+        // {
+        //     return _count;
+        // }
     }
 }
